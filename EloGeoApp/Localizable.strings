@@ -1,0 +1,104 @@
+"wrong_password" = "Неверное имя пользователя или пароль";
+"unknown_error" = "Неизвестная ошибка";
+"unknown" = "Неизвестно";
+"phone_number" = "Номер телефона";
+"login" = "Войти";
+"username" = "Логин";
+"password" = "Пароль";
+"empty" = "Пусто";
+"login_by_phone" = "Вход по номеру телефона";
+"login_by_username" = "Вход по логину";
+"phone_not_found" = "Телефон не найден";
+"send_again_in_d" = "Отправить еще раз (%d с.)";
+"code_from_sms" = "Код из смс";
+"information_about_user" = "Информация о пользователе";
+"courier_name" = "Имя курьера";
+"profile_status" = "Статус профиля";
+"company" = "Компания";
+"passport_data" = "Серия и номер паспорта";
+"number_of_completed_orders" = "Количество завершенных заказов";
+
+"cant_get_user_data" = "Не удалось получить данные пользователя";
+"last_time_point" = "Последняя точка отправлена";
+
+"confirmed" = "Подтвержден";
+"on_check" = "На проверке";
+"new_profile" = "Новый профиль";
+"phone_not_verified" = "Телефон не подтвержден";
+
+"car" = "Машина";
+"truck" = "Грузовик";
+"save" = "Сохранить";
+"update" = "Обновить";
+"successfully" = "Успешно";
+"update_profile" = "Обновить профиль";
+"logout" = "Выйти";
+"finished_orders" = "Завершённые заказы";
+
+"order_status_new" = "Новый заказ";
+"order_status_processed" = "Заказ обработан";
+"order_status_booked" = "Заказ занят";
+"order_status_received_by_courier" = "Заказ получен курьером";
+"order_status_in_transit" = "Заказ в пути";
+"order_status_technical_stop" = "Техническая остановка";
+"order_status_completed" = "Заказ завершён";
+"order_status_canceled" = "Заказ отменён";
+
+"warehouse_address" = "Адрес склада:";
+"destination_address" = "Адрес назначения:";
+
+"cargo_container" = "Грузовая тара";
+"container_for_passenger_cars" = "Тара для легковых машин";
+"package_for_couriers_on_foot" = "Тара для пеших курьероов";
+"package_unknown" = "Неизвестно";
+
+"time_of_start" = "Время начала";
+"time_of_finish" = "Время окончания";
+"time_of_creation" = "Время создания";
+
+"tara_type" = "Тип тары";
+
+"cancel" = "Отмена";
+"order_list" = "Список заказов";
+
+"complete_order" = "Завершить заказ";
+"change_status" = "Изменить статус";
+"take_order" = "Взять заказ";
+"receive_order" = "Забрал заказ";
+"in_transit" = "В пути";
+"arrive_time" = "Время прибытия";
+"select_date" = "Выберите дату...";
+"select" = "Выбрать";
+"not_set" = "не установлено";
+"change" = "Изменить";
+"change_status" = "Изменить статус";
+"expected_time_from" = "Ожидаемое время с ";
+"to" = "до ";
+"only_1_active_order_permitted" = "Не более 1го активного заказа";
+"technical_stop" = "Техническая остановка";
+"completed" = "Завершен";
+"current_status" = "Текущий статус";
+
+"start_point_in_navigator" = "Начальная точка в навигаторе";
+"end_point_in_navigator" = "Конечная точка в навигаторе";
+
+
+"media_menuTitle" = "Тип файла";
+"media_menuMessage" = "Укажите тип файла для присоединения";
+"media_menuCancel" = "Закрыть";
+"media_menuCamera" = "Камера";
+"media_menuGallery" = "Галерея";
+"media_menuDocument" = "Документы";
+"media_warningSettings" = "Настройки";
+"media_warningCamera" = "Приложение не имеет доступа к вашей камере. Для предоставления доступа нажмите на Настройки и включите пункт Камера";
+"media_warningGallery" = "Приложение не имеет доступа к вашим фото и видео. Для предоставления доступа нажмите на Настройки и включите пункт Фото";
+
+"chat" = "Чат";
+"open_chat" = "Открыть чат";
+"send" = "Отправить";
+"sending" = "Отправка...";
+"input_message" = "Введите сообщение";
+"close" = "Закрыть";
+
+"distance" = "Расстояние";
+"cost" = "Цена";
