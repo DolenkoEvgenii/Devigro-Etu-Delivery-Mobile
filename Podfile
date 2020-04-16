@@ -42,6 +42,6 @@ def elo_pods
 end
 
 # Для каждого таргета
-target 'YolkaCompass' do
+target 'EtuDelivery' do
   elo_pods
 end

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,6 @@
 		237964FA227E33BD00613475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237964F9227E33BD00613475 /* LaunchScreen.storyboard */; };
 		23887EB72276C06E0051DC13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23887EB62276C06E0051DC13 /* AppDelegate.swift */; };
 		2396D81723740637001D8CA1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2396D81623740637001D8CA1 /* CoreLocation.framework */; };
-		69980B2F2907FB100CAF7583 /* Pods_YolkaCompass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4806C8D0BA00C8D53719FE8 /* Pods_YolkaCompass.framework */; };
 		B40FB02BB1F850BE2CE64BA1 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40FB8659592DF789866F224 /* LoginResponse.swift */; };
 		B40FB0412B87CCEF80036CA1 /* LocaleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40FBFAABAFD4A74EBE85BB4 /* LocaleExtensions.swift */; };
 		B40FB0749DC5A107F7DE5284 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40FB65FB13BC4670044338C /* FileManagerExtensions.swift */; };
@@ -210,6 +209,7 @@
 		B40FBFD3DB34A3A721611168 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40FBB669EE2B612CC497195 /* Router.swift */; };
 		B40FBFD5CEE344507F19C7E7 /* SCNCylinderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40FBC01FFFCD7B570223886 /* SCNCylinderExtensions.swift */; };
 		B40FBFFBC47F9EBB97B7921F /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40FBA53C8BDDD1EC3905FBF /* OptionalExtensions.swift */; };
+		D113FA74719334EB43E2DCB4 /* Pods_EtuDelivery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A515CD65178FAC7C45134D /* Pods_EtuDelivery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -221,14 +221,14 @@
 		233CA4D3232D2245004E7D67 /* ExtendedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedLabel.swift; sourceTree = "<group>"; };
 		233CA4D4232D2245004E7D67 /* ExtendedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedButton.swift; sourceTree = "<group>"; };
 		237964F9227E33BD00613475 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		23887EB32276C06E0051DC13 /* Yolka Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yolka Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23887EB32276C06E0051DC13 /* EtuDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtuDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23887EB62276C06E0051DC13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2396D81623740637001D8CA1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		59C496BE27C2FAC8ADFB2A99 /* Pods-EtuDelivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtuDelivery.debug.xcconfig"; path = "Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery.debug.xcconfig"; sourceTree = "<group>"; };
 		706CBB882A3589928C3FEF66 /* Pods-EloGeoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EloGeoApp.release.xcconfig"; path = "Target Support Files/Pods-EloGeoApp/Pods-EloGeoApp.release.xcconfig"; sourceTree = "<group>"; };
 		805363327B340784B6655F52 /* Pods-YolkaCompass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YolkaCompass.debug.xcconfig"; path = "Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass.debug.xcconfig"; sourceTree = "<group>"; };
 		8084387F9563F6FFB08D03F2 /* Pods-YolkaCompass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YolkaCompass.release.xcconfig"; path = "Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass.release.xcconfig"; sourceTree = "<group>"; };
 		A420C19C4AC7BD6CB5633D58 /* Pods-EloGeoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EloGeoApp.debug.xcconfig"; path = "Target Support Files/Pods-EloGeoApp/Pods-EloGeoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		A4806C8D0BA00C8D53719FE8 /* Pods_YolkaCompass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YolkaCompass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40FB00D11F4B0F73E7F8A0A /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		B40FB01732D38124D835D961 /* ASMainTextFieldNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASMainTextFieldNode.swift; sourceTree = "<group>"; };
 		B40FB0236459D3C8182A12BC /* LoginViaUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViaUsernameViewController.swift; sourceTree = "<group>"; };
@@ -423,6 +423,8 @@
 		B40FBFDAF55040150441357C /* MKMapViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapViewExtensions.swift; sourceTree = "<group>"; };
 		B40FBFE3FF39EAB966DEE039 /* LoginViaPhoneConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViaPhoneConfigurator.swift; sourceTree = "<group>"; };
 		B40FBFE839BFFDF54A06B9AB /* UIRefreshControlExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRefreshControlExtensions.swift; sourceTree = "<group>"; };
+		B9A515CD65178FAC7C45134D /* Pods_EtuDelivery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtuDelivery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DB02FBC6A09EF9489B3916 /* Pods-EtuDelivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtuDelivery.release.xcconfig"; path = "Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -431,7 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2396D81723740637001D8CA1 /* CoreLocation.framework in Frameworks */,
-				69980B2F2907FB100CAF7583 /* Pods_YolkaCompass.framework in Frameworks */,
+				D113FA74719334EB43E2DCB4 /* Pods_EtuDelivery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +443,7 @@
 		23887EAA2276C06E0051DC13 = {
 			isa = PBXGroup;
 			children = (
-				23887EB52276C06E0051DC13 /* EloGeoApp */,
+				23887EB52276C06E0051DC13 /* EtuDelivery */,
 				23887EB42276C06E0051DC13 /* Products */,
 				2C079FA6E20B33321234E695 /* Pods */,
 				DE5132B8B2B5E699389F3863 /* Frameworks */,
@@ -451,12 +453,12 @@
 		23887EB42276C06E0051DC13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23887EB32276C06E0051DC13 /* Yolka Compass.app */,
+				23887EB32276C06E0051DC13 /* EtuDelivery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23887EB52276C06E0051DC13 /* EloGeoApp */ = {
+		23887EB52276C06E0051DC13 /* EtuDelivery */ = {
 			isa = PBXGroup;
 			children = (
 				B40FB00BDD4B0690DB98D044 /* View */,
@@ -475,7 +477,7 @@
 				B40FBA14AD80E5A4FA6FFC2F /* AppStoryboard.swift */,
 				B40FB6230A8212962768D680 /* Helpers */,
 			);
-			path = EloGeoApp;
+			path = EtuDelivery;
 			sourceTree = "<group>";
 		};
 		2C079FA6E20B33321234E695 /* Pods */ = {
@@ -485,6 +487,8 @@
 				706CBB882A3589928C3FEF66 /* Pods-EloGeoApp.release.xcconfig */,
 				805363327B340784B6655F52 /* Pods-YolkaCompass.debug.xcconfig */,
 				8084387F9563F6FFB08D03F2 /* Pods-YolkaCompass.release.xcconfig */,
+				59C496BE27C2FAC8ADFB2A99 /* Pods-EtuDelivery.debug.xcconfig */,
+				E4DB02FBC6A09EF9489B3916 /* Pods-EtuDelivery.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1121,7 +1125,7 @@
 			isa = PBXGroup;
 			children = (
 				2396D81623740637001D8CA1 /* CoreLocation.framework */,
-				A4806C8D0BA00C8D53719FE8 /* Pods_YolkaCompass.framework */,
+				B9A515CD65178FAC7C45134D /* Pods_EtuDelivery.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1129,9 +1133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23887EB22276C06E0051DC13 /* YolkaCompass */ = {
+		23887EB22276C06E0051DC13 /* EtuDelivery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23887EC52276C0700051DC13 /* Build configuration list for PBXNativeTarget "YolkaCompass" */;
+			buildConfigurationList = 23887EC52276C0700051DC13 /* Build configuration list for PBXNativeTarget "EtuDelivery" */;
 			buildPhases = (
 				120D462C724FCC53880158FD /* [CP] Check Pods Manifest.lock */,
 				23887EAF2276C06E0051DC13 /* Sources */,
@@ -1144,9 +1148,9 @@
 			);
 			dependencies = (
 			);
-			name = YolkaCompass;
+			name = EtuDelivery;
 			productName = EloGeoApp;
-			productReference = 23887EB32276C06E0051DC13 /* Yolka Compass.app */;
+			productReference = 23887EB32276C06E0051DC13 /* EtuDelivery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1164,8 +1168,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 23887EAE2276C06E0051DC13 /* Build configuration list for PBXProject "YolkaCompass" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 23887EAE2276C06E0051DC13 /* Build configuration list for PBXProject "EtuDelivery" */;
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1179,7 +1183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23887EB22276C06E0051DC13 /* YolkaCompass */,
+				23887EB22276C06E0051DC13 /* EtuDelivery */,
 			);
 		};
 /* End PBXProject section */
@@ -1216,7 +1220,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YolkaCompass-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EtuDelivery-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1229,15 +1233,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE4DA234D670E5CB688F5ED7 /* [CP] Copy Pods Resources */ = {
@@ -1246,15 +1250,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YolkaCompass/Pods-YolkaCompass-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EtuDelivery/Pods-EtuDelivery-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1585,7 +1589,7 @@
 		};
 		23887EC62276C0700051DC13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 805363327B340784B6655F52 /* Pods-YolkaCompass.debug.xcconfig */;
+			baseConfigurationReference = 59C496BE27C2FAC8ADFB2A99 /* Pods-EtuDelivery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1598,9 +1602,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elo.group.geoApp;
-				PRODUCT_NAME = "Yolka Compass";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.devigro.delivery;
+				PRODUCT_NAME = EtuDelivery;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1609,7 +1613,7 @@
 		};
 		23887EC72276C0700051DC13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8084387F9563F6FFB08D03F2 /* Pods-YolkaCompass.release.xcconfig */;
+			baseConfigurationReference = E4DB02FBC6A09EF9489B3916 /* Pods-EtuDelivery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1622,9 +1626,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elo.group.geoApp;
-				PRODUCT_NAME = "Yolka Compass";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.devigro.delivery;
+				PRODUCT_NAME = EtuDelivery;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1634,7 +1638,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23887EAE2276C06E0051DC13 /* Build configuration list for PBXProject "YolkaCompass" */ = {
+		23887EAE2276C06E0051DC13 /* Build configuration list for PBXProject "EtuDelivery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23887EC32276C0700051DC13 /* Debug */,
@@ -1643,7 +1647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23887EC52276C0700051DC13 /* Build configuration list for PBXNativeTarget "YolkaCompass" */ = {
+		23887EC52276C0700051DC13 /* Build configuration list for PBXNativeTarget "EtuDelivery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23887EC62276C0700051DC13 /* Debug */,
